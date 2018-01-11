@@ -14,7 +14,7 @@
   "scripts": {
     "build": "rollup -c",
     "build:all": "rollup -c && rollup -c --environment MIN && rollup -c --environment UMD",
-    "dev": "rollup -w -c --environment UMD",
+    "dev": "rollup -w -c",
     "bench": "node test/bench",
     "prebench": "npm run build",
     "test": "mocha test/test.js",

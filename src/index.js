@@ -21,3 +21,5 @@ export function squash ( source, options = {} ) {
 }
 
 export { version as VERSION } from '../package.json';
+
+export { default as Program } from './program/Program.js';
